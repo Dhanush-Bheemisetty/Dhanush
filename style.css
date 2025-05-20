@@ -1,0 +1,118 @@
+/* Basic Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #f0f0f0;
+    background: url('https://img.freepik.com/premium-photo/top-view-dark-stylish-workplace-with-smartphone-office-supplies_67155-2963.jpg') no-repeat center center fixed;
+    background-size: cover;
+    line-height: 1.6;
+}
+
+/* Make ALL links white */
+a {
+    color: white;
+    text-decoration: none;
+
+}
+/* Button Container */
+.nav-buttons {
+  text-align: left;
+  margin: 25px 0;
+}
+.nav-buttons-assign {
+  text-align: center;
+  margin: 25px 0;
+}
+/* Base Button Style */
+.resume-btn, .home-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+}
+/* Home Button - Green */
+.home-btn {
+  background-color: #5a8f5a;
+  border: 2px solid #4a7a4a;
+}
+/* Hover Effects */
+.resume-btn:hover {
+  background-color: #3a5a80;
+}
+/* Make both buttons identical */
+.resume-btn {
+  display: inline-block;
+  padding: 12px 24px;
+  border-radius: 6px;
+  font-weight: bold;
+  margin: 0 10px;
+  text-decoration: none;
+  color: white;
+  transition: all 0.3s ease;
+  background-color: #4a6fa5;
+  border: 2px solid #3a5a80;
+}
+
+.resume-btn:hover{
+  background-color: #3a5a80;
+}
+
+.abt-assign{
+    text-align: centre;
+    font-display: centre;
+    
+}
+/* Content Containers */
+header, section, footer {
+    background-color: rgba(40, 40, 40, 0.88);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+    border-left: 5px solid #4a6fa5;
+}
+
+/* Header Styles */
+header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+header h1 {
+    color: white;
+    margin: 0;
+    font-size: 2em;
+}
+
+header h2 {
+    color: #bbbbbb;
+    margin: 10px 0;
+    font-weight: normal;
+}
+
+/* Social Links */
+.social-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+.social-links li {
+    display: inline-block;
+    margin-right: 10px;
+    background-color: rgba(60, 60, 60, 0.9);
+    padding: 8px 15px;
+    border-radius: 5px;
+    border: 1px solid #4a6fa5;
+}
+/* Footer Styles */
+footer {
+    text-align: center;
+    margin-bottom: 20px;
+    padding: 15px;
+}
